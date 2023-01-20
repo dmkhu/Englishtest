@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Old Standard TT', serif;  
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    max-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.navigation a {
+    margin-right: 30px;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navigation a:hover {
+    color: red;
+}
+.context {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 954px;
+}
+
+.start-photo {
+    width: 100%;
+    height: auto;
+}
+
+.comment-test {
+    text-align: center;
+    font-size: 28px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.comment-test p {
+    margin-top: 25px;
+}
+
+.comment-test p a {
+    font-weight: 700;
+    color: black;
+}
+
+.comment-test p a:hover {
+    color: red;
+}
+
+.butt-start {
+    max-width: 385px;
+    height: 74px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.butt-start button {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: 2px solid #FF0000;
+}
+
+.butt-start button:hover {
+    color: #FF0000;
+    background-color: white;
+    cursor: pointer;
+}
+
+.start-test {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.border-test {
+    margin-top: 60px;
+    max-width: 710px;
+    height: 457px;
+    border: 2px solid #091376;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.you-do {
+    margin-top: 15px;
+    display: flex;
+}
+
+.from-test {
+    color: grey;
+}
+
+.question-test {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.answers-box {
+    margin-top: 60px;
+    margin-left: 15%;
+    font-size: 24px;
+}
+
+
+.answer {
+    cursor: pointer;
+    margin-top: 25px;
+    display: none;
+}
+
+.no-answer {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: block;
+}
+
+.yes-answer {
+    margin-right: 10px;
+    float: left;
+    display: none;
+}
+
+.answer-button {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 383px;
+    height: 76px;
+
+}
+
+.answer-button button {
+    width: 100%;
+    height: 100%;
+    background-color: #2400FF;
+    border-radius: 30px;
+    border: 2px solid #2400FF;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.answer-button button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #2400FF;
+}
+
+.test {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.test-result {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: none;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 32px;
+}
+
+.result-img {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.text-result {
+    display: flex;
+}
+
+.text-count {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+.butt-again {
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+}
+
+.butt-again button {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color: red;
+}
+
+.butt-again button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}

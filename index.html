@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Level English</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo" onclick=pushAgain()>My level English</h1>
+        <nav class="navigation">
+            <a href="#">Рекомендации</a>
+            <a href="#">О проекте</a>
+        </nav>
+    </header>
+
+    <div class="context">
+        <div class="start-test">
+            <img class="start-photo" src="photos/Rectangle 7.jpg" alt="">
+            <div class="comment-test">
+                <p>>Тест состоит из 15 вопросов, на каждый из которых есть только один правильный ответ</p>
+                <p>>Не нажимай конопку "Назад" в браузере, это обновит страницу и завершит тест!</p>
+                <p>>Предложения или замечания пиши <a href="#">сюда</a></p>
+            </div>
+            <div class="butt-start">
+                <button onclick=startTest()>Начать тест</button>
+            </div>
+        </div>
+
+        <div class="test">
+            <div class="border-test">
+                <div class="question-box">
+                    <div class="you-do">
+                        <p id="a1">1</p>
+                        <p class="from-test">
+                            /15
+                        </p>
+                    </div>
+
+                    <div class="question-test">
+                        <p id="a2">I love coding!</p>
+                    </div>
+                </div>
+                
+
+                <div class="answers-box">
+                    <div class="answer" onclick = pushAnswer()>
+                        <img class="no-answer" src="photos/Ellipse 1.svg" width="16px" alt="">
+                        <img class="yes-answer" src="photos/layer1.svg" width="36.31px" height="28px" alt="+">
+                        <p>So much</p>
+                    </div>
+                    <div class="answer" onclick = pushAnswer()>
+                        <img class="no-answer" src="photos/Ellipse 1.svg" width="16px" alt="">
+                        <img class="yes-answer" src="photos/layer1.svg" width="36.31px" height="28px" alt="+">
+                        <p>I was born for this</p>
+                    </div>
+                    <div class="answer" onclick = pushAnswer()>
+                        <img class="no-answer" src="photos/Ellipse 1.svg" width="16px" alt="">
+                        <img class="yes-answer" src="photos/layer1.svg" width="36.31px" height="28px" alt="+">
+                        <p>I will be a great developer</p>
+                    </div>
+                    <div class="answer" onclick = pushAnswer()>
+                        <img class="no-answer" src="photos/Ellipse 1.svg" width="16px" alt="">
+                        <img class="yes-answer" src="photos/layer1.svg" width="36.31px" height="28px" alt="+">
+                        <p>I know</p>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="answer-button">
+                <button onclick = pushNext()>Дальше</button>
+            </div>
+
+        </div>
+
+        <div class="test-result">
+            <img src="" alt="" class="result-img">
+            <p class="text-result">Все получится!</p>
+            <div class="text-count">
+                <p class="your-count">0</p>
+                <p class="max-count">/15</p>
+            </div>
+            <div class="butt-again">
+                <button onclick = pushAgain()>Пройти еще раз</button>
+            </div>
+        </div>
+             
+    </div>
+  
+    
+
+    <script src="scriptTest.js"></script>
+</body>
+</html>
