@@ -43,6 +43,7 @@ header {
     color: red;
 }
 .context {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 954px;
@@ -248,6 +249,19 @@ header {
     margin-right: 10px;
     display: none;
     cursor: pointer;
+}
+
+.phone-menu {
+    display: none;
+    margin-top: 10px;
+    height: 80vh;
+    text-align: center;
+}
+.phone-menu p {
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.188);
 }
 
 @media (max-width: 600px) {
