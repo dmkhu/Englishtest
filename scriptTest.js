@@ -30,6 +30,11 @@ function pushAgain() {
     location.reload();
 }
 
+//кнопка меню телефон
+function navPhone() {
+    alert("Меню еще в работе")
+}
+
 
 //открываем страницу с результатом
 function showResult(){
