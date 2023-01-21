@@ -8,7 +8,7 @@ function startTest() {
     document.querySelector('.start-test').style= 'display: none';
     document.querySelector('.test').style= 'display: block';
     document.getElementById("a1").innerHTML = num;
-    getTask()
+    getTask();
 }
 
 
@@ -30,9 +30,19 @@ function pushAgain() {
     location.reload();
 }
 
-//кнопка меню телефон
+//кнопка меню телефона
 function navPhone() {
-    alert("Меню еще в работе")
+    let menu = document.querySelector(".phone-menu");
+    let menuStyle = window.getComputedStyle(menu);
+    let menuDisplay = menuStyle.getPropertyValue("display");
+    if(menuDisplay === "block") {
+        document.querySelector('.phone-menu').style= 'display: none';
+        document.querySelector('.context').style= 'display: block';
+    }
+    else {
+        document.querySelector('.context').style= 'display: none';
+        document.querySelector('.phone-menu').style= 'display: block';
+    }
 }
 
 
