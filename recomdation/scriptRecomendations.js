@@ -12,3 +12,8 @@ function navPhone() {
         document.querySelector('.phone-menu').style= 'display: block';
     }
 }
+
+//кнопка пройти еще раз
+function pushAgain() {
+    location.reload();
+}
