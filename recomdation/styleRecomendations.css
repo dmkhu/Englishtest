@@ -43,6 +43,8 @@ header {
     color: red;
 }
 .context {
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: 30px;
     padding-top: 5px;
     border-top: 1px solid rgba(24, 100, 213, 0.397);
